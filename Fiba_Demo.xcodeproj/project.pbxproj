@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D879CA0546B1663056D8D90 /* Pods_Fiba_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50380DDF475CECC7658A0C4D /* Pods_Fiba_Demo.framework */; };
+		9F10CDBB1DBE2AF6005DE4D2 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10CDBA1DBE2AF6005DE4D2 /* TableViewCell1.swift */; };
+		9F1688221DC0C400003071DB /* ViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1688211DC0C400003071DB /* ViewController02.swift */; };
+		9F169FFE1DBA2A180080D13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F169FFD1DBA2A180080D13E /* AppDelegate.swift */; };
+		9F16A0001DBA2A180080D13E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F169FFF1DBA2A180080D13E /* ViewController.swift */; };
+		9F16A0031DBA2A180080D13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F16A0011DBA2A180080D13E /* Main.storyboard */; };
+		9F16A0051DBA2A180080D13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F16A0041DBA2A180080D13E /* Assets.xcassets */; };
+		9F16A0081DBA2A180080D13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F16A0061DBA2A180080D13E /* LaunchScreen.storyboard */; };
+		9F16A0131DBA2A180080D13E /* Fiba_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16A0121DBA2A180080D13E /* Fiba_DemoTests.swift */; };
+		9F16A01E1DBA2A180080D13E /* Fiba_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16A01D1DBA2A180080D13E /* Fiba_DemoUITests.swift */; };
+		9F16A02C1DBA2B600080D13E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F16A02B1DBA2B600080D13E /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F16A00F1DBA2A180080D13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F169FF21DBA2A170080D13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F169FF91DBA2A180080D13E;
+			remoteInfo = Fiba_Demo;
+		};
+		9F16A01A1DBA2A180080D13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F169FF21DBA2A170080D13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F169FF91DBA2A180080D13E;
+			remoteInfo = Fiba_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0178ACEE7A380D39E08790FA /* Pods-Fiba_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiba_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fiba_Demo/Pods-Fiba_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA6FBEB14050508CC2378D6 /* Pods-Fiba_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiba_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fiba_Demo/Pods-Fiba_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		50380DDF475CECC7658A0C4D /* Pods_Fiba_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fiba_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F10CDBA1DBE2AF6005DE4D2 /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		9F1688211DC0C400003071DB /* ViewController02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController02.swift; sourceTree = "<group>"; };
+		9F169FFA1DBA2A180080D13E /* Fiba_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fiba_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F169FFD1DBA2A180080D13E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F169FFF1DBA2A180080D13E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F16A0021DBA2A180080D13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F16A0041DBA2A180080D13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F16A0071DBA2A180080D13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F16A0091DBA2A180080D13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F16A00E1DBA2A180080D13E /* Fiba_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fiba_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F16A0121DBA2A180080D13E /* Fiba_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fiba_DemoTests.swift; sourceTree = "<group>"; };
+		9F16A0141DBA2A180080D13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F16A0191DBA2A180080D13E /* Fiba_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fiba_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F16A01D1DBA2A180080D13E /* Fiba_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fiba_DemoUITests.swift; sourceTree = "<group>"; };
+		9F16A01F1DBA2A180080D13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F16A02B1DBA2B600080D13E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F169FF71DBA2A180080D13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D879CA0546B1663056D8D90 /* Pods_Fiba_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F16A00B1DBA2A180080D13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F16A0161DBA2A180080D13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84636C678E6C50E242B0780C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0178ACEE7A380D39E08790FA /* Pods-Fiba_Demo.debug.xcconfig */,
+				4DA6FBEB14050508CC2378D6 /* Pods-Fiba_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F169FF11DBA2A170080D13E = {
+			isa = PBXGroup;
+			children = (
+				9F169FFC1DBA2A180080D13E /* Fiba_Demo */,
+				9F16A0111DBA2A180080D13E /* Fiba_DemoTests */,
+				9F16A01C1DBA2A180080D13E /* Fiba_DemoUITests */,
+				9F169FFB1DBA2A180080D13E /* Products */,
+				84636C678E6C50E242B0780C /* Pods */,
+				C7014B9DE9357E9058F9A3FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F169FFB1DBA2A180080D13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F169FFA1DBA2A180080D13E /* Fiba_Demo.app */,
+				9F16A00E1DBA2A180080D13E /* Fiba_DemoTests.xctest */,
+				9F16A0191DBA2A180080D13E /* Fiba_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F169FFC1DBA2A180080D13E /* Fiba_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9F169FFD1DBA2A180080D13E /* AppDelegate.swift */,
+				9F169FFF1DBA2A180080D13E /* ViewController.swift */,
+				9F16A0011DBA2A180080D13E /* Main.storyboard */,
+				9F1688211DC0C400003071DB /* ViewController02.swift */,
+				9F10CDBA1DBE2AF6005DE4D2 /* TableViewCell1.swift */,
+				9F16A0041DBA2A180080D13E /* Assets.xcassets */,
+				9F16A0061DBA2A180080D13E /* LaunchScreen.storyboard */,
+				9F16A02B1DBA2B600080D13E /* GoogleService-Info.plist */,
+				9F16A0091DBA2A180080D13E /* Info.plist */,
+			);
+			path = Fiba_Demo;
+			sourceTree = "<group>";
+		};
+		9F16A0111DBA2A180080D13E /* Fiba_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F16A0121DBA2A180080D13E /* Fiba_DemoTests.swift */,
+				9F16A0141DBA2A180080D13E /* Info.plist */,
+			);
+			path = Fiba_DemoTests;
+			sourceTree = "<group>";
+		};
+		9F16A01C1DBA2A180080D13E /* Fiba_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F16A01D1DBA2A180080D13E /* Fiba_DemoUITests.swift */,
+				9F16A01F1DBA2A180080D13E /* Info.plist */,
+			);
+			path = Fiba_DemoUITests;
+			sourceTree = "<group>";
+		};
+		C7014B9DE9357E9058F9A3FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50380DDF475CECC7658A0C4D /* Pods_Fiba_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F169FF91DBA2A180080D13E /* Fiba_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F16A0221DBA2A180080D13E /* Build configuration list for PBXNativeTarget "Fiba_Demo" */;
+			buildPhases = (
+				5CC07969BF308CEC5B759440 /* [CP] Check Pods Manifest.lock */,
+				9F169FF61DBA2A180080D13E /* Sources */,
+				9F169FF71DBA2A180080D13E /* Frameworks */,
+				9F169FF81DBA2A180080D13E /* Resources */,
+				3B579F0AFE0D9D22625C0C79 /* [CP] Embed Pods Frameworks */,
+				14BE2C1E85468673EBA26544 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fiba_Demo;
+			productName = Fiba_Demo;
+			productReference = 9F169FFA1DBA2A180080D13E /* Fiba_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F16A00D1DBA2A180080D13E /* Fiba_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F16A0251DBA2A180080D13E /* Build configuration list for PBXNativeTarget "Fiba_DemoTests" */;
+			buildPhases = (
+				9F16A00A1DBA2A180080D13E /* Sources */,
+				9F16A00B1DBA2A180080D13E /* Frameworks */,
+				9F16A00C1DBA2A180080D13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F16A0101DBA2A180080D13E /* PBXTargetDependency */,
+			);
+			name = Fiba_DemoTests;
+			productName = Fiba_DemoTests;
+			productReference = 9F16A00E1DBA2A180080D13E /* Fiba_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F16A0181DBA2A180080D13E /* Fiba_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F16A0281DBA2A180080D13E /* Build configuration list for PBXNativeTarget "Fiba_DemoUITests" */;
+			buildPhases = (
+				9F16A0151DBA2A180080D13E /* Sources */,
+				9F16A0161DBA2A180080D13E /* Frameworks */,
+				9F16A0171DBA2A180080D13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F16A01B1DBA2A180080D13E /* PBXTargetDependency */,
+			);
+			name = Fiba_DemoUITests;
+			productName = Fiba_DemoUITests;
+			productReference = 9F16A0191DBA2A180080D13E /* Fiba_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F169FF21DBA2A170080D13E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Cam Nhung";
+				TargetAttributes = {
+					9F169FF91DBA2A180080D13E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9F16A00D1DBA2A180080D13E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F169FF91DBA2A180080D13E;
+					};
+					9F16A0181DBA2A180080D13E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F169FF91DBA2A180080D13E;
+					};
+				};
+			};
+			buildConfigurationList = 9F169FF51DBA2A170080D13E /* Build configuration list for PBXProject "Fiba_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F169FF11DBA2A170080D13E;
+			productRefGroup = 9F169FFB1DBA2A180080D13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F169FF91DBA2A180080D13E /* Fiba_Demo */,
+				9F16A00D1DBA2A180080D13E /* Fiba_DemoTests */,
+				9F16A0181DBA2A180080D13E /* Fiba_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F169FF81DBA2A180080D13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F16A0081DBA2A180080D13E /* LaunchScreen.storyboard in Resources */,
+				9F16A02C1DBA2B600080D13E /* GoogleService-Info.plist in Resources */,
+				9F16A0051DBA2A180080D13E /* Assets.xcassets in Resources */,
+				9F16A0031DBA2A180080D13E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F16A00C1DBA2A180080D13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F16A0171DBA2A180080D13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14BE2C1E85468673EBA26544 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fiba_Demo/Pods-Fiba_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B579F0AFE0D9D22625C0C79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fiba_Demo/Pods-Fiba_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC07969BF308CEC5B759440 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F169FF61DBA2A180080D13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F10CDBB1DBE2AF6005DE4D2 /* TableViewCell1.swift in Sources */,
+				9F16A0001DBA2A180080D13E /* ViewController.swift in Sources */,
+				9F1688221DC0C400003071DB /* ViewController02.swift in Sources */,
+				9F169FFE1DBA2A180080D13E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F16A00A1DBA2A180080D13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F16A0131DBA2A180080D13E /* Fiba_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F16A0151DBA2A180080D13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F16A01E1DBA2A180080D13E /* Fiba_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F16A0101DBA2A180080D13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F169FF91DBA2A180080D13E /* Fiba_Demo */;
+			targetProxy = 9F16A00F1DBA2A180080D13E /* PBXContainerItemProxy */;
+		};
+		9F16A01B1DBA2A180080D13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F169FF91DBA2A180080D13E /* Fiba_Demo */;
+			targetProxy = 9F16A01A1DBA2A180080D13E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F16A0011DBA2A180080D13E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F16A0021DBA2A180080D13E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F16A0061DBA2A180080D13E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F16A0071DBA2A180080D13E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F16A0201DBA2A180080D13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F16A0211DBA2A180080D13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F16A0231DBA2A180080D13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0178ACEE7A380D39E08790FA /* Pods-Fiba_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fiba_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camnhung.gesture.Fiba-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F16A0241DBA2A180080D13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA6FBEB14050508CC2378D6 /* Pods-Fiba_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fiba_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camnhung.gesture.Fiba-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F16A0261DBA2A180080D13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Fiba_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camnhung.gesture.Fiba-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiba_Demo.app/Fiba_Demo";
+			};
+			name = Debug;
+		};
+		9F16A0271DBA2A180080D13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Fiba_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camnhung.gesture.Fiba-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fiba_Demo.app/Fiba_Demo";
+			};
+			name = Release;
+		};
+		9F16A0291DBA2A180080D13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Fiba_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camnhung.gesture.Fiba-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fiba_Demo;
+			};
+			name = Debug;
+		};
+		9F16A02A1DBA2A180080D13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Fiba_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camnhung.gesture.Fiba-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Fiba_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F169FF51DBA2A170080D13E /* Build configuration list for PBXProject "Fiba_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F16A0201DBA2A180080D13E /* Debug */,
+				9F16A0211DBA2A180080D13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F16A0221DBA2A180080D13E /* Build configuration list for PBXNativeTarget "Fiba_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F16A0231DBA2A180080D13E /* Debug */,
+				9F16A0241DBA2A180080D13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F16A0251DBA2A180080D13E /* Build configuration list for PBXNativeTarget "Fiba_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F16A0261DBA2A180080D13E /* Debug */,
+				9F16A0271DBA2A180080D13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F16A0281DBA2A180080D13E /* Build configuration list for PBXNativeTarget "Fiba_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F16A0291DBA2A180080D13E /* Debug */,
+				9F16A02A1DBA2A180080D13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F169FF21DBA2A170080D13E /* Project object */;
+}
